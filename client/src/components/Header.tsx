@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Link } from "wouter";
+import logoImage from "@/assets/logo.png";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -30,10 +31,12 @@ export default function Header() {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
           <a href="#" className="flex items-center">
-            <div className="h-12 w-12 rounded-full bg-primary/20 flex items-center justify-center mr-3">
-              <i className="fas fa-paw text-primary text-xl"></i>
-            </div>
-            <div>
+            <img 
+              src={logoImage} 
+              alt="Logo Recanto Seu Pet Feliz" 
+              className="h-12 w-auto mr-3"
+            />
+            <div className="hidden sm:block">
               <h1 className="text-xl font-bold font-montserrat text-primary">Recanto</h1>
               <p className="text-sm font-medium text-secondary">Seu Pet Feliz</p>
             </div>

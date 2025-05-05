@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import logoImage from "@/assets/logo.png";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -9,9 +10,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           <div>
             <div className="flex items-center mb-6">
-              <div className="h-12 w-12 rounded-full bg-primary/20 flex items-center justify-center mr-3">
-                <i className="fas fa-paw text-primary text-xl"></i>
-              </div>
+              <img 
+                src={logoImage} 
+                alt="Logo Recanto Seu Pet Feliz" 
+                className="h-14 w-auto mr-3 bg-white p-1 rounded-lg"
+              />
               <div>
                 <h2 className="text-xl font-bold font-montserrat text-primary">Recanto</h2>
                 <p className="text-sm font-medium text-white/80">Seu Pet Feliz</p>
