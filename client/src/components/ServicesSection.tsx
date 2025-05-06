@@ -22,34 +22,20 @@ export default function ServicesSection() {
     },
     {
       id: 2,
-      title: "Banho e Tosa",
-      description: "Serviços de higiene e estética com produtos premium e profissionais experientes para deixar seu pet limpo e cheiroso.",
-      icon: "fa-bath",
-      image: "https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?q=80&w=600&auto=format&fit=crop"
-    },
-    {
-      id: 3,
       title: "Day Care",
       description: "Cuidados durante o dia com atividades recreativas, socialização e muito espaço para seu pet brincar e se divertir.",
       icon: "fa-paw",
       image: "https://images.unsplash.com/photo-1615233500064-caa995e2f9dd?q=80&w=600&auto=format&fit=crop"
     },
     {
-      id: 4,
-      title: "Adestramento Básico",
-      description: "Técnicas positivas de adestramento para melhorar o comportamento do seu pet e fortalecer o vínculo entre vocês.",
-      icon: "fa-graduation-cap",
-      image: "https://images.unsplash.com/photo-1589860518300-db492d80edd5?q=80&w=600&auto=format&fit=crop"
-    },
-    {
-      id: 5,
+      id: 3,
       title: "Passeios Diários",
       description: "Caminhadas programadas em nosso amplo jardim para exercitar seu pet e garantir seu bem-estar físico e mental.",
       icon: "fa-walking",
       image: "https://images.unsplash.com/photo-1553529083-1b6cd22e209d?q=80&w=600&auto=format&fit=crop"
     },
     {
-      id: 6,
+      id: 4,
       title: "Cuidados Especiais",
       description: "Atendimento personalizado para pets idosos ou com necessidades específicas, incluindo administração de medicamentos.",
       icon: "fa-medkit",

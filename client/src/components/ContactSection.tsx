@@ -142,9 +142,9 @@ export default function ContactSection() {
                   >
                     <option value="" disabled>Selecione um serviço</option>
                     <option value="hospedagem">Hospedagem</option>
-                    <option value="banho-tosa">Banho e Tosa</option>
                     <option value="day-care">Day Care</option>
-                    <option value="adestramento">Adestramento</option>
+                    <option value="passeios">Passeios Diários</option>
+                    <option value="cuidados-especiais">Cuidados Especiais</option>
                     <option value="outros">Outros</option>
                   </select>
                   {errors.service && (
@@ -197,7 +197,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <h5 className="font-semibold">Endereço</h5>
-                    <p className="text-foreground/70">Rua dos Pets Felizes, 123 - Jardim das Flores<br/>São Paulo - SP, 01234-567</p>
+                    <p className="text-foreground/70">Alameda dos Guainumbis, 446 - Planalto Paulista<br/>São Paulo - SP</p>
                   </div>
                 </div>
                 
@@ -255,7 +255,7 @@ export default function ContactSection() {
               <h4 className="text-xl font-bold font-montserrat mb-4">Nossa Localização</h4>
               <div className="rounded-lg overflow-hidden h-64">
                 <iframe 
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.8869961505356!2d-46.65499492491026!3d-23.54321477865868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c7f481fd9f%3A0x9982d6f9030d3ab!2sSP%2C%20Brasil!5e0!3m2!1spt-BR!2sbr!4v1697556231577!5m2!1spt-BR!2sbr" 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.958191960644!2d-46.65266012356611!3d-23.603714178882483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a05f133c083%3A0xd1dd3f37ca8e682b!2sAl.%20dos%20Guaiumbis%2C%20446%20-%20Planalto%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1697577830000!5m2!1spt-BR!2sbr" 
                   width="100%" 
                   height="100%" 
                   style={{ border: 0 }}

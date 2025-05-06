@@ -5,7 +5,7 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
   
   return (
-    <footer className="bg-dark text-white pt-16 pb-8">
+    <footer className="bg-gray-900 text-white pt-16 pb-8">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           <div>
@@ -56,9 +56,7 @@ export default function Footer() {
             <h3 className="text-lg font-bold font-montserrat mb-6">Serviços</h3>
             <ul className="space-y-3">
               <li><a href="#servicos" className="text-white/70 hover:text-primary transition-colors">Hospedagem</a></li>
-              <li><a href="#servicos" className="text-white/70 hover:text-primary transition-colors">Banho e Tosa</a></li>
               <li><a href="#servicos" className="text-white/70 hover:text-primary transition-colors">Day Care</a></li>
-              <li><a href="#servicos" className="text-white/70 hover:text-primary transition-colors">Adestramento Básico</a></li>
               <li><a href="#servicos" className="text-white/70 hover:text-primary transition-colors">Passeios Diários</a></li>
               <li><a href="#servicos" className="text-white/70 hover:text-primary transition-colors">Cuidados Especiais</a></li>
             </ul>
@@ -69,7 +67,7 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <i className="fas fa-map-marker-alt mt-1 mr-3 text-primary"></i>
-                <span className="text-white/70">Rua dos Pets Felizes, 123 - Jardim das Flores<br/>São Paulo - SP, 01234-567</span>
+                <span className="text-white/70">Alameda dos Guainumbis, 446 - Planalto Paulista<br/>São Paulo - SP</span>
               </li>
               <li className="flex items-start">
                 <i className="fas fa-phone-alt mt-1 mr-3 text-primary"></i>
