@@ -24,17 +24,11 @@ export default function Footer() {
               Um espaço pensado especialmente para o bem-estar e felicidade do seu melhor amigo.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-white/70 hover:text-primary transition-colors" aria-label="Facebook">
-                <i className="fab fa-facebook-f"></i>
-              </a>
-              <a href="#" className="text-white/70 hover:text-primary transition-colors" aria-label="Instagram">
+              <a href="https://www.instagram.com/recantoseupetfeliz/" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-primary transition-colors" aria-label="Instagram">
                 <i className="fab fa-instagram"></i>
               </a>
-              <a href="#" className="text-white/70 hover:text-primary transition-colors" aria-label="WhatsApp">
+              <a href="https://wa.me/5511994846333" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-primary transition-colors" aria-label="WhatsApp">
                 <i className="fab fa-whatsapp"></i>
-              </a>
-              <a href="#" className="text-white/70 hover:text-primary transition-colors" aria-label="YouTube">
-                <i className="fab fa-youtube"></i>
               </a>
             </div>
           </div>
@@ -67,11 +61,11 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <i className="fas fa-map-marker-alt mt-1 mr-3 text-primary"></i>
-                <span className="text-white/70">Alameda dos Guainumbis, 446 - Planalto Paulista<br/>São Paulo - SP</span>
+                <span className="text-white/70">Alameda dos Guainumbis, 446 - Planalto Paulista<br/>São Paulo - SP, 04067-001</span>
               </li>
               <li className="flex items-start">
                 <i className="fas fa-phone-alt mt-1 mr-3 text-primary"></i>
-                <span className="text-white/70">(11) 99999-9999</span>
+                <span className="text-white/70">(11) 99484-6333</span>
               </li>
               <li className="flex items-start">
                 <i className="fas fa-envelope mt-1 mr-3 text-primary"></i>

@@ -197,7 +197,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <h5 className="font-semibold">Endereço</h5>
-                    <p className="text-foreground/70">Alameda dos Guainumbis, 446 - Planalto Paulista<br/>São Paulo - SP</p>
+                    <p className="text-foreground/70">Alameda dos Guainumbis, 446 - Planalto Paulista<br/>São Paulo - SP, 04067-001</p>
                   </div>
                 </div>
                 
@@ -207,7 +207,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <h5 className="font-semibold">Telefone</h5>
-                    <p className="text-foreground/70">(11) 99999-9999</p>
+                    <p className="text-foreground/70">(11) 99484-6333</p>
                   </div>
                 </div>
                 
@@ -236,17 +236,11 @@ export default function ContactSection() {
             <div>
               <h4 className="text-xl font-bold font-montserrat mb-4">Siga-nos nas Redes Sociais</h4>
               <div className="flex space-x-4">
-                <a href="#" className="bg-primary/10 hover:bg-primary/20 w-12 h-12 flex items-center justify-center rounded-full transition-colors" aria-label="Facebook">
-                  <i className="fab fa-facebook-f text-primary text-xl"></i>
-                </a>
-                <a href="#" className="bg-primary/10 hover:bg-primary/20 w-12 h-12 flex items-center justify-center rounded-full transition-colors" aria-label="Instagram">
+                <a href="https://www.instagram.com/recantoseupetfeliz/" target="_blank" rel="noopener noreferrer" className="bg-primary/10 hover:bg-primary/20 w-12 h-12 flex items-center justify-center rounded-full transition-colors" aria-label="Instagram">
                   <i className="fab fa-instagram text-primary text-xl"></i>
                 </a>
-                <a href="#" className="bg-primary/10 hover:bg-primary/20 w-12 h-12 flex items-center justify-center rounded-full transition-colors" aria-label="WhatsApp">
+                <a href="https://wa.me/5511994846333" target="_blank" rel="noopener noreferrer" className="bg-primary/10 hover:bg-primary/20 w-12 h-12 flex items-center justify-center rounded-full transition-colors" aria-label="WhatsApp">
                   <i className="fab fa-whatsapp text-primary text-xl"></i>
-                </a>
-                <a href="#" className="bg-primary/10 hover:bg-primary/20 w-12 h-12 flex items-center justify-center rounded-full transition-colors" aria-label="YouTube">
-                  <i className="fab fa-youtube text-primary text-xl"></i>
                 </a>
               </div>
             </div>
@@ -255,7 +249,7 @@ export default function ContactSection() {
               <h4 className="text-xl font-bold font-montserrat mb-4">Nossa Localização</h4>
               <div className="rounded-lg overflow-hidden h-64">
                 <iframe 
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.958191960644!2d-46.65266012356611!3d-23.603714178882483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a05f133c083%3A0xd1dd3f37ca8e682b!2sAl.%20dos%20Guaiumbis%2C%20446%20-%20Planalto%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1697577830000!5m2!1spt-BR!2sbr" 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.958191960644!2d-46.65266012356611!3d-23.603714178882483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a05f133c083%3A0xd1dd3f37ca8e682b!2sAl.%20dos%20Guaiumbis%2C%20446%20-%20Planalto%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004067-001!5e0!3m2!1spt-BR!2sbr!4v1697577830000!5m2!1spt-BR!2sbr" 
                   width="100%" 
                   height="100%" 
                   style={{ border: 0 }}
