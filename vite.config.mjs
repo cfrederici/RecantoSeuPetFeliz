@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
-import { fileURLToPath } from "url";
 import path from "path";
+import { fileURLToPath } from "url";
 import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
 import { viteStaticCopy } from "vite-plugin-static-copy";
 
@@ -9,7 +9,8 @@ import { viteStaticCopy } from "vite-plugin-static-copy";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Replit plugins array (empty to avoid require error)
+// Em ESM não podemos usar require, então omitimos os plugins do Replit
+// que usam require
 const replitPlugins = [];
 
 export default defineConfig({
