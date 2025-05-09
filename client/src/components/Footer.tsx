@@ -51,7 +51,6 @@ export default function Footer() {
             <ul className="space-y-3">
               <li><a href="#servicos" className="text-white/70 hover:text-primary transition-colors">Hospedagem</a></li>
               <li><a href="#servicos" className="text-white/70 hover:text-primary transition-colors">Day Care</a></li>
-              <li><a href="#servicos" className="text-white/70 hover:text-primary transition-colors">Passeios Diários</a></li>
               <li><a href="#servicos" className="text-white/70 hover:text-primary transition-colors">Cuidados Especiais</a></li>
             </ul>
           </div>
