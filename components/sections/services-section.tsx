@@ -1,3 +1,4 @@
+
 "use client";
 
 import Image from "next/image";
@@ -35,7 +36,7 @@ export function ServicesSection() {
                   src={service.image}
                   alt={service.title}
                   fill
-                  className="object-cover"
+                  className="object-cover transition-transform duration-300 hover:scale-110"
                 />
               </div>
             </div>
