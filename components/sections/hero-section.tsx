@@ -6,11 +6,12 @@ import { siteConfig } from "@/lib/constants";
 
 export function HeroSection() {
   return (
-    <section className="relative h-[600px]">
+    <section className="relative h-[600px] w-full max-w-[1920px] mx-auto overflow-hidden">
       <Image
         src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?q=80&w=800&auto=format&fit=crop"
         alt="Happy small dogs playing"
         fill
+        priority
         className="object-cover brightness-50"
       />
       <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
