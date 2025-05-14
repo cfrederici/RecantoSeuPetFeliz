@@ -7,6 +7,9 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: 'Recanto Seu Pet Feliz - Creche, Daycare e Hotel para Cães',
   description: 'Creche, daycare e hotel para dogs de pequeno porte em São Paulo. Cuidamos do seu pet com todo amor e carinho que ele merece.',
+  icons: {
+    icon: '/favicon.ico',
+  },
 };
 
 export default function RootLayout({
